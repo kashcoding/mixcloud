@@ -1,0 +1,42 @@
+.container {
+    width: inherit;
+    background-color: #f4f4f5;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 16px;
+    height: 32px;
+}
+
+.userRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+
+.userRow:hover {
+    background-color: #e7e7e9;
+}
+
+.userRow img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.userText {
+    display: flex;
+    flex-direction: column;
+}
+
+.userFollowers {
+    color: #61667a;
+}

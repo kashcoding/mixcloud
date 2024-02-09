@@ -1,0 +1,201 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 95%;
+    padding: 48px;
+}
+
+.dashboard h1 {
+    font-size: 32px;
+}
+
+.btnRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.btnRow button {
+    position: relative;
+    background-color: #4a26f5;
+    border-radius: 8px;
+    border: none;
+    height: 110px;
+    width: 100%;
+    padding: 16px;
+    cursor: pointer;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.btnRow button:hover {
+    background-color: #3e1ecf;
+}
+
+.container {
+    width: inherit;
+    background-color: #f4f4f5;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.88px;
+}
+
+h3:hover {
+    color: #4a26f5;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+}
+
+.overview {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 300px;
+}
+
+.statsContainer {
+    flex: 1 1 0%;
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2px;
+    margin-right: 16px;
+}
+
+.statsContainer div {
+    background-color: #f4f4f5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statsContainer div:first-child {
+    border-top-left-radius: 8px;
+}
+
+.statsContainer div:nth-child(3) {
+    border-top-right-radius: 8px;
+}
+
+.statsContainer div:nth-child(4) {
+    border-bottom-left-radius: 8px;
+}
+
+.statsContainer div:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.stats span:first-child {
+    font-size: 24px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 16px;
+    margin: 0px;
+}
+
+.video video {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.interactions {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.notifications {
+    width: 100%;
+}
+
+.notifBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    width: initial;
+}
+
+.notifBlock span:first-of-type {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.guides {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.guideGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .guideGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 24px;
+    }
+}

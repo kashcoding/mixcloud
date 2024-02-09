@@ -1,0 +1,90 @@
+.toast {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    border-radius: 4px;
+    box-shadow:
+        0px 3px 6px 0px rgba(0, 0, 0, 0.2),
+        0px 0px 2px 0px rgba(0, 0, 0, 0.3),
+        0px 1px 8px 0px rgba(0, 0, 0, 0.05);
+    padding: 9px 8px;
+    transition: opacity 0.25s;
+    background-color: #fff;
+
+    will-change: transform;
+    animation:
+        fade-in 0.3s ease,
+        slide-in 0.3s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .toast {
+        --_travel-distance: 5vh;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(var(--_travel-distance, 10px));
+    }
+}
+
+.fadeOut {
+    opacity: 0;
+    animation:
+        fade-out 0.3s ease,
+        slide-out 0.3s ease;
+}
+
+.notifAvatar {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.notifText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.notifTitle {
+    width: 188px;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+.notifMessage {
+    font-size: 14px;
+    color: #636674;
+}
+
+.live {
+    margin: 0 8px;
+}
+
+a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.close {
+    margin-right: 8px;
+    cursor: pointer;
+}
