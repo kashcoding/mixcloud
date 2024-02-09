@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mixcloud-clone/static/css/main.3c537956.css",
+    "main.js": "/mixcloud-clone/static/js/main.3d05c4ac.js",
+    "static/js/787.0c3f432a.chunk.js": "/mixcloud-clone/static/js/787.0c3f432a.chunk.js",
+    "static/media/mc_vid.mp4": "/mixcloud-clone/static/media/mc_vid.ee6ae47f9798684bc8e6.mp4",
+    "static/media/guide1.jpg": "/mixcloud-clone/static/media/guide1.d34d1d350795f8df25ec.jpg",
+    "static/media/guide2.jpg": "/mixcloud-clone/static/media/guide2.2dba3db0f3651edd6fca.jpg",
+    "static/media/guide3.jpg": "/mixcloud-clone/static/media/guide3.8886c0eb00439ebe7945.jpg",
+    "static/media/dj-yoda.jpg": "/mixcloud-clone/static/media/dj-yoda.b7119a37f9e5d5674fb0.jpg",
+    "static/media/mc_logo.png": "/mixcloud-clone/static/media/mc_logo.bfc35d18c8c367d7ce50.png",
+    "static/media/live.svg": "/mixcloud-clone/static/media/live.a3a462b46df4918cc6ec40a59da46646.svg",
+    "index.html": "/mixcloud-clone/index.html",
+    "static/media/close.svg": "/mixcloud-clone/static/media/close.efc8d38a2d38d1b5eab90be7738e32ff.svg",
+    "main.3c537956.css.map": "/mixcloud-clone/static/css/main.3c537956.css.map",
+    "main.3d05c4ac.js.map": "/mixcloud-clone/static/js/main.3d05c4ac.js.map",
+    "787.0c3f432a.chunk.js.map": "/mixcloud-clone/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c537956.css",
+    "static/js/main.3d05c4ac.js"
+  ]
+}
